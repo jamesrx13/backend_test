@@ -8,4 +8,9 @@ app.get('/', (req, res) => {
         }
     );
 });
+
+app.post('/imagen', (req, res) => {
+
+});
+
 app.listen(3000);
